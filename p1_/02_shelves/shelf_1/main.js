@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       gridItem.classList.add("grid-item");
       gridItem.addEventListener("click", function() {
 
-          window.location.href = "/Users/ecamarillo/Documents/GitHub/ci2/p1_/03_text/text_1/index.html";
+          window.location.href = "https://camae358.github.io/ci2/p1_/03_text/text_1/index.html";
       });
       gridContainer.appendChild(gridItem);
   }
