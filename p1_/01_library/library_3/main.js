@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // grid setup
     const gridContainer = document.querySelector(".grid-container");
-    const numberOfSquares = 10000;
+    const numberOfSquares = 1000000;
 
     const randomIndex = Math.floor(Math.random() * numberOfSquares);
 

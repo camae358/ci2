@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s linear, color 0.5s linear;
+}
+
+
+.layout1-content, .layout2-content, .layout3-content {
+    display: flex;
+    text-align: left; 
+    height: 100%; 
+    width: 800px;
+    margin: 100px;
+}
+
+
+.layout1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.layout2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.layout3 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.layout4 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pill-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255)
+  }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
