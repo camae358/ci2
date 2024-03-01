@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.matrixText {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
