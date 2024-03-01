@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (i === randomIndex) {
             gridItem.classList.add("blue");
             const link = document.createElement("a");
-            link.href = "/Users/ecamarillo/Documents/GitHub/ci2/p1_/02_shelves/shelf_1/index.html";
+            link.href = "https://camae358.github.io/ci2/p1_/02_shelves/shelf_1/index.html";
             link.appendChild(gridItem);
             gridContainer.appendChild(link);
         } else {
@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+
