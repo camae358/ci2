@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const gridItem = document.createElement("div");
         gridItem.classList.add("grid-item");
 
-    // blue box  
+    // random box  
         if (i === randomIndex) {
             gridItem.classList.add("blue");
             const link = document.createElement("a");

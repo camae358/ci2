@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return text;
   }
 
+// text generation
   function updateMatrixText() {
     matrixText.innerText = generateMatrixText();
     scaleText();
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     matrixText.style.transform = `scale(${scale})`;
   }
 
-
+  // window scaling
   window.addEventListener('resize', function() {
     updateMatrixText(); 
     scaleText(); 
