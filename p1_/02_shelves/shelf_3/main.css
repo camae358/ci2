@@ -27,4 +27,5 @@ body {
 .grid-item:hover {
   background-color: white;
   transform: scale(1.1);
+  cursor: pointer;
 }
