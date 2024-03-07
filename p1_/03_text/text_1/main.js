@@ -40,3 +40,4 @@ document.querySelector('.pill-button').addEventListener('click', function() {
 // button link
     window.location.href = 'https://camae358.github.io/ci2/p1_/01_library/library_2/index.html';
 });
+
