@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!blueBoxAssigned && Math.random() < 0.05) { // 5% chance to assign blue box
             gridItem.classList.add("blue", "no-animation");
             const link = document.createElement("a");
-            link.href = "https://camae358.github.io/ci2/p1_/02_shelves/shelf_1/index.html";
+            link.href = "https://camae358.github.io/ci2/p1_/02_shelves/shelf_2/index.html";
             link.appendChild(gridItem);
             gridContainer.appendChild(link);
             blueBoxAssigned = true;
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const blueBox = gridItems[randomIndex];
         blueBox.classList.add("blue", "no-animation");
         const link = document.createElement("a");
-        link.href = "https://camae358.github.io/ci2/p1_/02_shelves/shelf_1/index.html";
+        link.href = "https://camae358.github.io/ci2/p1_/02_shelves/shelf_2/index.html";
         link.appendChild(blueBox);
         gridContainer.appendChild(link);
     }
