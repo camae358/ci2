@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // grid setup
     const gridContainer = document.querySelector(".grid-container");
-    const numberOfSquares = 500;
+    const numberOfSquares = 50000;
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     // blue box check
