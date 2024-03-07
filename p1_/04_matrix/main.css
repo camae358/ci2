@@ -1,31 +1,22 @@
-body {
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .matrix-container {
+    height: 100%;
     background-color: black;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.matrixText {
-    font-size: 20px;
+  }
+  
+  #matrix-text {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    position: relative;
     white-space: nowrap;
-    overflow: hidden;
-}
-
-.matrixText span {
-    opacity: 0;
-    animation: randomizeCharacter 0.5s linear forwards;
-}
-
-@keyframes randomizeCharacter {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(-100%) rotateY(720deg);
-    }
-}
+    font-size: 20px;
+  }
+  
