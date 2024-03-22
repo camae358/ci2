@@ -9,16 +9,17 @@ body {
 }
 
 h1 {
-    font-weight: 200;
+    font-weight: 100;
     font-size: 80px;
-    margin-left: 0.8em 
+    margin-left: 0.8em
 }
 
 
 h2 {
     font-weight: 200;
-    margin-left: 2.85em 
+    margin-left: 2.85em
     }
+
 
 .section {
     display: flex;
@@ -39,14 +40,14 @@ h2 {
 }
 .button {
     padding: 10px 20px;
-    border: 2px solid #2d24af;; /* Border instead of background */
+    border: 1px solid #2d24af;; 
     border-radius: 20px;
-    background-color: transparent; /* Transparent background */
-    color: #2d24af;; /* Text color */
+    background-color: transparent; 
+    color: #2d24af;; 
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transition color changes */
-    display: inline-block; /* Make sure it doesn't span the full width */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    display: inline-block;
 }
 .button:hover {
     background-color: #2d24af;;
