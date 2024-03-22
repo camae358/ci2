@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: #2d24af;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 80px;
+    margin-left: 0.8em 
+}
+
+
+h2 {
+    font-weight: 200;
+    margin-left: 2.85em 
+    }
+
+.section {
+    display: flex;
+    align-items: baseline;
+    padding: 20px;
+    margin-left: 3em;
+}
+.header {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.content {
+    flex: 1;
+    margin-left: 60px;
+}
+.paragraph {
+    margin-bottom: 30px;
+}
+.button {
+    padding: 10px 20px;
+    border: 2px solid #2d24af;; /* Border instead of background */
+    border-radius: 20px;
+    background-color: transparent; /* Transparent background */
+    color: #2d24af;; /* Text color */
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition color changes */
+    display: inline-block; /* Make sure it doesn't span the full width */
+}
+.button:hover {
+    background-color: #2d24af;;
+    color: white;
+}
