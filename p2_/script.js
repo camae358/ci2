@@ -249,46 +249,7 @@ const duneImages = [
 //tron
 const tronImages = [
     { 
-        "title": "light_cycle_1",
-        "img": "img/tron_8.JPG",
-        "franchise": "tron",
-        "type": "key_visual",
-        "artist": "vyle_art",
-        "date": "",
-        "tools": "photoshop",
-    },
-
-    { 
-        "title": "the_fall",
-        "img": "img/tron_5.JPG",
-        "franchise": "tron",
-        "type": "key_visual",
-        "artist": "vyle_art",
-        "date": "",
-        "tools": "photoshop",
-    },
-
-    { 
-        "title": "light_cycle_race",
-        "img": "img/tron_3.JPG",
-        "franchise": "tron",
-        "type": "key_visual",
-        "artist": "vyle_art",
-        "date": "",
-        "tools": "photoshop",
-    },
-
-    { 
-        "title": "throne_ship",
-        "img": "img/tron_4.JPG",
-        "franchise": "tron",
-        "type": "vehicle",
-        "artist": "vyle_art",
-        "date": "",
-        "tools": "photoshop",
-    },
-
-    { 
+       
         "title": "flynn_lightcycle",
         "img": "img/tron_2.JPG",
         "franchise": "tron",
