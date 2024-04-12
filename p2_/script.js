@@ -136,12 +136,12 @@ const destinyImages = [
 const duneImages = [
     { 
         "title": "duncan_idaho_arrives_on_arrakis",
-        "img": "img/dune_test.png",
+        "img": "img/dune_10",
         "franchise": "dune",
-        "type": "key_visual",
-        "artist": "jeremy_hanna",
+        "type": "",
+        "artist": "",
         "date": "",
-        "tools": "photoshop",
+        "tools": "",
     },
 
     { 
