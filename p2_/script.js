@@ -136,7 +136,7 @@ const destinyImages = [
 const duneImages = [
     { 
         "title": "duncan_idaho_arrives_on_arrakis",
-        "img": "img/dune_10.JPG",
+        "img": "img/dune_10.jpg",
         "franchise": "dune",
         "type": "",
         "artist": "",
@@ -470,4 +470,16 @@ function filterImagesByType(type, containerClass) {
         container.querySelector('.gallery').appendChild(box);
     });
 }
+
+// Attach event listeners to filter buttons
+document.querySelectorAll('.pill-button').forEach(button => {
+    button.addEventListener('click', function() {
+        // Toggle the active class on the clicked button
+        this.classList.toggle('active');
+
+        const type = this.textContent.toUpperCase(); // Assuming button text matches the image type
+        const containerClass = this.closest('.container').classList[0]; // Get the container class
+        filterImagesByType(type, containerClass);
+    });
+});
 
