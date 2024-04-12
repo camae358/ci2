@@ -167,7 +167,7 @@ const duneImages = [
 
     { 
         "title": "bene_gesserit",
-        "img": "img/dune_1.JPG",
+        "img": "img/dune_1.jpg",
         "franchise": "dune",
         "type": "key_visual",
         "artist": "keith_christensen",
@@ -187,7 +187,7 @@ const duneImages = [
 
     { 
         "title": "worm_chase",
-        "img": "img/dune_6.JPG",
+        "img": "img/dune_6.jpg",
         "franchise": "dune",
         "type": "key_visual",
         "artist": "kamen_anev",
@@ -207,7 +207,7 @@ const duneImages = [
 
     { 
         "title": "sparring",
-        "img": "img/dune_8.JPG",
+        "img": "img/dune_8.jpg",
         "franchise": "dune",
         "type": "key_visuals",
         "artist": "keith_christensen",
@@ -217,7 +217,7 @@ const duneImages = [
 
     { 
         "title": "ornithopter",
-        "img": "img/dune_9.JPG",
+        "img": "img/dune_9.jpg",
         "franchise": "dune",
         "type": "vehicle",
         "artist": "george_hull",
