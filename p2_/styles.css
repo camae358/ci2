@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Munchenstein Display L';
+    src: url('MunchensteinDisplayL-ExtraLight.woff2') format('woff2'),
+        url('MunchensteinDisplayL-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+.destiny_container h2,
+.dune_container h2,
+.tron_container h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Munchenstein Display L';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 130px;
+}
+
+p {
+font-family: 'Courier New', Courier, monospace;
+margin-left: 20px;
+}
+
+.box {
+    flex: 0 0 auto;
+    width: 900px; 
+    height: 450px; 
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.h1-container {
+    display: flex;
+    align-items: center;
+}
+
+.pill-buttons-container {
+    display: flex;
+    gap: 5px; /* Adjust the space between buttons as needed */
+}
+
+.pill-button {
+    padding: 10px 20px;
+    border: 1px solid #000000; 
+    border-radius: 20px;
+    background-color: transparent; 
+    color: #000000; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-size: 15px;
+    font-family: 'Munchenstein Display L';
+    font-weight: 200;
+    font-style: normal;
+}
+
+.h1-container h1 {
+    margin: 0;
+    font-family: 'Munchenstein Display L';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+    .pill-button:hover {
+        background-color: #000000;;
+        color: white;
+    }
+
+    .active {
+        background-color: #000000;
+        color: white;
+    }
+
+/* CSS to decrease space between h2 and p */
+.destiny_container h2,
+.dune_container h2,
+.tron_container h2 {
+    margin-bottom: 10px; /* Decrease the margin between h2 and p */
+}
+
+.destiny_container p,
+.dune_container p,
+.tron_container p {
+    margin-bottom: 80px; /* Remove default top margin for p */
+    margin-left: 30px; /* Remove default top margin for p */
+    
+}
+
+#film {
+    animation: filmSpin 20s ease-out infinite;
+    height:200px;
+    background: none;
+    border: none;
+  }
+  
+  @keyframes filmSpin {
+    0% {
+      transform: rotate(0turn);
+      opacity: 0%;
+    }
+    
+    50% {
+        opacity: 100%;
+      }
+
+    100% {
+      transform: rotate(10turn);
+      opacity: 0%;
+    }
+  }
+
+svg {
+    width: 120px;
+}
+
+.svg-container {
+    margin-left: 30px; /* Remove default top margin for p */
+}
