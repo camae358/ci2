@@ -146,7 +146,7 @@ const duneImages = [
 
     { 
         "title": "crashed_ornithopter",
-        "img": "img/dune_2.JPG",
+        "img": "img/dune_5.JPG",
         "franchise": "dune",
         "type": "key_visual",
         "artist": "jeremy_hanna",
@@ -156,7 +156,7 @@ const duneImages = [
 
     { 
         "title": "worm_attack",
-        "img": "img/dune_5.JPG",
+        "img": "img/dune_2.JPG",
         "franchise": "dune",
         "type": "key_visual",
         "artist": "jeremy_hanna",
