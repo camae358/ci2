@@ -12,7 +12,7 @@ function setup() {
   numDotsInput.position(20, 20);
   numDotsInput.value(numDots); 
 
-  let updateButton = createButton('Update');
+  let updateButton = createButton('Enter Age');
   updateButton.position(numDotsInput.x + numDotsInput.width + 10, 20);
   updateButton.mousePressed(updateDots);
 }
