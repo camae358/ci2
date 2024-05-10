@@ -1,3 +1,7 @@
+body {
+    cursor: url('img/cursor.png'), auto;
+}
+
 @font-face {
     font-family: 'Munchenstein Display L';
     src: url('MunchensteinDisplayL-ExtraLight.woff2') format('woff2'),
@@ -19,7 +23,8 @@
     overflow-x: auto;
     width: 100%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 h2 {
@@ -29,9 +34,25 @@ h2 {
     font-size: 130px;
 }
 
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 50px;
+        
+    }
+}
+
 p {
-font-family: 'Courier New', Courier, monospace;
+font-family:  "neue-haas-grotesk-display", sans-serif;
 margin-left: 20px;
+word-spacing: 5px;
+line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
 }
 
 .box {
@@ -43,6 +64,14 @@ margin-left: 20px;
     border-radius: 15px;
 
 }
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 450px; 
+        height: 225px;
+    }
+}
+
 
 .navbar {
     display: flex;
@@ -62,7 +91,7 @@ margin-left: 20px;
 
 .pill-buttons-container {
     display: flex;
-    gap: 5px; /* Adjust the space between buttons as needed */
+    gap: 5px;
 }
 
 .pill-button {
@@ -98,48 +127,66 @@ margin-left: 20px;
         color: white;
     }
 
-/* CSS to decrease space between h2 and p */
 .destiny_container h2,
 .dune_container h2,
 .tron_container h2 {
-    margin-bottom: 10px; /* Decrease the margin between h2 and p */
+    margin-bottom: 10px; 
 }
 
 .destiny_container p,
 .dune_container p,
 .tron_container p {
-    margin-bottom: 80px; /* Remove default top margin for p */
-    margin-left: 30px; /* Remove default top margin for p */
+    margin-bottom: 80px;
+    margin-left: 30px;
     
 }
 
-#film {
-    animation: filmSpin 20s ease-out infinite;
-    height:200px;
-    background: none;
-    border: none;
-  }
-  
-  @keyframes filmSpin {
-    0% {
-      transform: rotate(0turn);
-      opacity: 0%;
-    }
-    
-    50% {
-        opacity: 100%;
-      }
-
-    100% {
-      transform: rotate(10turn);
-      opacity: 0%;
-    }
-  }
-
 svg {
-    width: 120px;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .svg-container {
+        width: 40px; 
+    }
 }
 
 .svg-container {
-    margin-left: 30px; /* Remove default top margin for p */
+    margin-left: 30px; 
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
 }
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+
+.destiny_container, .dune_container, .tron_container {
+    width: 105%;
+}
+
+
+p a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+p a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+p a:hover::after {
+    width: 100%;
+}
+

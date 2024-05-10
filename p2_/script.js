@@ -6,7 +6,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "dorje_bellbrook",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -16,7 +15,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -26,7 +24,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "environment",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -36,7 +33,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "dorje_bellbrook",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -47,7 +43,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "environment",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -57,7 +52,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "environment",
         "artist": "dorje_bellbrook",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -67,7 +61,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "environment",
         "artist": "dorje_bellbrook",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -77,7 +70,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "lorem",
         "artist": "lorem",
-        "date": "lorem",
         "tools": "lorem",
     },
 
@@ -87,7 +79,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -97,7 +88,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -107,7 +97,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 
@@ -117,7 +106,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "environment",
         "artist": "mark_goldsworthy",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -127,7 +115,6 @@ const destinyImages = [
         "franchise": "destiny",
         "type": "key_visual",
         "artist": "jaime_jones",
-        "date": "",
         "tools": "traditional",
     },
 ]
@@ -140,7 +127,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "",
         "artist": "",
-        "date": "",
         "tools": "",
     },
 
@@ -150,7 +136,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "jeremy_hanna",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -160,7 +145,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "jeremy_hanna",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -171,7 +155,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "keith_christensen",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -181,7 +164,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "george_hull",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -191,7 +173,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "kamen_anev",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -201,7 +182,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visual",
         "artist": "rodeo",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -211,7 +191,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "key_visuals",
         "artist": "keith_christensen",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -221,7 +200,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "vehicle",
         "artist": "george_hull",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -231,7 +209,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "vehicle",
         "artist": "george_hull",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -241,7 +218,6 @@ const duneImages = [
         "franchise": "dune",
         "type": "vehicle",
         "artist": "george_hull",
-        "date": "",
         "tools": "photoshop",
     },
 ]
@@ -254,7 +230,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -264,7 +239,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -274,7 +248,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -284,7 +257,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "vehicle",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -294,7 +266,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "vehiclel",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -304,7 +275,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -314,7 +284,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "environment",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -324,7 +293,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "vehicle",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -334,7 +302,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -344,7 +311,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -354,7 +320,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -364,7 +329,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -374,7 +338,6 @@ const tronImages = [
         "franchise": "tron",
         "type": "key_visual",
         "artist": "vyle_art",
-        "date": "",
         "tools": "photoshop",
     },
 
@@ -445,16 +408,16 @@ function filterImages(attribute, value) {
     createImageElements(filteredImages);
 }
 
-//filter gallery
-// Function to filter images by type and display in the gallery
+// filter gallery
+// function to filter images by type and display in the gallery
 function filterImagesByType(type, containerClass) {
     const container = document.querySelector(`.${containerClass}`);
     const filteredImages = window[`${containerClass}_images`].filter(image => image.type === type);
 
-    // Clear the existing content in the gallery
+    // clear the existing content in the gallery
     container.querySelector('.gallery').innerHTML = '';
 
-    // Create and append image elements for filtered images
+    // create and append image elements for filtered images
     filteredImages.forEach(image => {
         const img = document.createElement('div');
         img.style.backgroundImage = `url(${image.img})`;
@@ -471,7 +434,7 @@ function filterImagesByType(type, containerClass) {
     });
 }
 
-// Attach event listeners to filter buttons
+// attach event listeners to filter buttons
 document.querySelectorAll('.pill-button').forEach(button => {
     button.addEventListener('click', function() {
         // toggle the active class on the clicked button
@@ -482,4 +445,5 @@ document.querySelectorAll('.pill-button').forEach(button => {
         filterImagesByType(type, containerClass);
     });
 });
+
 
