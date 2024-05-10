@@ -4,6 +4,8 @@ let targetDots = numDots;
 let angle = 137.5;
 let scalar = 4;
 
+let souls = [];
+
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('sketch-container');
@@ -15,6 +17,8 @@ function setup() {
   let updateButton = createButton('Enter Age');
   updateButton.position(numDotsInput.x + numDotsInput.width + 10, 20);
   updateButton.mousePressed(updateDots);
+
+  setInterval(releaseSoul, 500);
 }
 
 function updateDots() {
@@ -34,6 +38,17 @@ function displayDateAndTime() {
   text("Time: " + timeString, width / 2.4, -360);
 }
 
+function releaseSoul() {
+  
+  let newSoul = {
+    x: random(width),
+    y: 0, 
+    diameter: 5,
+    stopped: false 
+  };
+  souls.push(newSoul);
+}
+
 function draw() {
   background(0);
 
@@ -50,6 +65,20 @@ function draw() {
 
   translate(width/2, height/2);
   fill(255);
+
+
+  for (let i = 0; i < souls.length; i++) {
+    let soul = souls[i];
+    ellipse(soul.x, soul.y, soul.diameter, soul.diameter);
+    if (!soul.stopped) {
+      soul.y += 5; 
+    }
+   
+    if (soul.y >= height - soul.diameter / 2) {
+      soul.y = height - soul.diameter / 2; 
+      soul.stopped = true;
+    }
+  }
 
   if (numDots < targetDots) {
     numDots += 10;
