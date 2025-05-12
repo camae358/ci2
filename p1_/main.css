@@ -39,7 +39,7 @@ html * {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(255, 255, 255);
   padding: 10px 20px;
-  border: 2px solid rgb(255, 255, 255);
+  border: 0.5px solid rgb(255, 255, 255);
   border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
